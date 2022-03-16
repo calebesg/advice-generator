@@ -9,7 +9,7 @@ const API = {
 
 const DOM = {
   title: document.querySelector('h2.title span'),
-  advice: document.querySelector('p.advice'),
+  advice: document.querySelector('q.advice'),
 
   addAdvice(data) {
     const { id, advice } = data.slip;
