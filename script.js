@@ -2,7 +2,7 @@ const API = {
   url: 'https://api.adviceslip.com/advice',
 
   async getAdvice() {
-    const response = await fetch(API.url, { cach: 'no-cach' });
+    const response = await fetch(API.url, { cache: 'no-cache' });
     return response.json(); 
   }
 }
